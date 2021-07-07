@@ -21,9 +21,24 @@ $(function()
 	var playPreviousTrackButton = $('#play-previous'), playNextTrackButton = $('#play-next'), currIndex = -1;
 	
 	var songs = [{
-		artist: "Ava Max",
-		name: "So Am I",
-		url: "Musics/SoAmI.mp3",
+		artist: "Sleepy",
+		name: "3 (Britney Spears)",
+		url: "Musics/3.mp3",
+		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+	},{
+		artist: "NIKI",
+		name: "Lowkey",
+		url: "Musics/lowkey.mp3",
+		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+	},{
+		artist: "Little Mix",
+		name: "Salute",
+		url: "Musics/Salute.mp3",
+		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
+	},{
+		artist: "Lee-PhuQuy",
+		name: "Minh Nguyệt Thiên Nhai",
+		url: "Musics/MinhNguyetThienNhai.mp3",
 		picture: "https://raw.githubusercontent.com/himalayasingh/music-player-1/master/img/_1.jpg"
 	}];
 	//Hàm shuffle sẽ trộn thứ tự các item trong mãng theo thứ tự ngẫu nhiên. Dành cho bạn nào muốn nghe nhạc không theo thứ tự, các bài phát sẽ được phát ngẫu nhiên.
